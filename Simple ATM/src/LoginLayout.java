@@ -98,6 +98,10 @@ public class LoginLayout  {
 	public void setHomepageLayout(HomepageLayout homepageLayout) {
 		this.homepageLayout = homepageLayout;
 	}
+	
+	public void setCount(int count) {
+		this.count = count;
+	}
 
 
 }

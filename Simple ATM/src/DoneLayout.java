@@ -70,6 +70,7 @@ public class DoneLayout {
 			history.clear();
 			homepageLayout.setHistory(history);
 			bankCard.setI(0);
+			loginLayout.setCount(0);
 			loginLayout.prepareScene();
 			stage.setScene(loginLayout.getScene());
 		});

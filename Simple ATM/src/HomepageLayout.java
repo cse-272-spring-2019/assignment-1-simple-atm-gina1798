@@ -139,6 +139,7 @@ public class HomepageLayout {
 			history=bankCard.getHistory();
 			history.clear();
 			bankCard.setI(0);
+			loginLayout.setCount(0);
 			loginLayout.prepareScene();
 			stage.setScene(loginLayout.getScene());
 			
